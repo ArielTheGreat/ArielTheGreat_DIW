@@ -1,0 +1,41 @@
+#negrita{
+	display:block;
+}
+
+.normal{
+	display:block;
+}
+ul{
+	border:none;
+}
+li{
+	margin-bottom:2em;
+	border:none;
+}
+.invisible{
+	display:none;
+}
+.enlinea{
+	display:inline;
+}
+.bloqueenlinea
+{
+	width:12em;
+	height:12em;
+	display:inline-block;
+}
+table,td
+{
+		border:none;
+}
+table p{
+	margin-left:-0.25em;
+}
+.desplazado{
+	position:relative;
+	top:20px;
+	right:20px;
+}
+.inamovible{
+	position:static;
+}

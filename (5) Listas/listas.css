@@ -27,7 +27,20 @@ p.titulo {
 	height: 1.5em;
 	vertical-align: middle;
 }
-{ /* Hay que conseguir que este estilo se aplique al posicionarse sobre el elemento con contenido LMSGI */
+#otraasignatura:hover{ /* Hay que conseguir que este estilo se aplique al posicionarse sobre el elemento con contenido LMSGI */
 	font-weight: bold;
-	color: #FFF;
+	color: #fff;
+}
+p{
+	background-color:#FBCEB1;
+	padding-top:1em;
+	padding-bottom:0.2em;
+}
+p::first-letter{
+		font-weight:bold;
+		font-size:1.5em;
+}
+li{
+		list-style:circle;
+		color:purple;
 }
