@@ -1,0 +1,12 @@
+body{
+	background:url('madrid.jpg');
+    background-repeat:no-repeat;
+    background-position:center;
+}
+#clarita
+{
+	content:url('logo.png');
+    -webkit-box-shadow: 21px 14px 5px 0px rgba(0,0,0,0.90);
+-moz-box-shadow: 21px 14px 5px 0px rgba(0,0,0,0.90);
+box-shadow: 21px 14px 5px 0px rgba(0,0,0,0.90);
+}
