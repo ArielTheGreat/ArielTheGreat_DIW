@@ -3,64 +3,8 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Margenes</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
 	<style type="text/css">
-		* {
-			font-family: Verdana, Geneva, sans-serif;
-			font-size: 12px;
-		}
-		div.exterior p, div.exteriorgrande p {
-			background-color: #CEA885;
-		}
-		.exterior {
-			background-color: #789498;
-			height: 100px;
-			width: 100px;
-			text-align: center;
-		}
-		.exteriorgrande {
-			background-color: #789498;
-			height: 200px;
-			width: 100px;
-			text-align: center;
-		}
-		.interior {
-			background-color: #755E8B;
-			text-align: center;
-			height: 50px;
-		}
-		#margen20 {
-
-		}
-		#margen2510 {
-
-		}
-		#margen25103 {
-
-		}
-		#margen25102 {
-
-		}
-		#margennegativosolo {
-
-		}
-		#margennegativo {
-
-		}
-		#margeninferiornegativo {
-
-		}
-		#dosprimera {
-
-		}
-		#dosprimerados {
-
-		}
-		#dossegunda {
-
-		}
-		#dossegundados {
-
-		}
 		
 	</style>
 </head>
@@ -79,7 +23,7 @@
 	<ul>
 	  <li>Margen de 20 en todos las caras (20 margen superior+50 alto +20 margen inferior&lt;100 alto capa exterior)</li>
 	</ul>
-	<div class="exterior">
+	<div id="margen20" class="exterior">
 		<div class="interior" id="margen20">
 			<p>I</p>
 		</div>
@@ -87,7 +31,7 @@
 	<ul>
 	  <li>Margen 25 arriba y abajo, 10 derecha izquierda. Padding 10 px izquierda derecha.</li>
 	</ul>
-	<div class="exterior">
+	<div id="margen2510" class="exterior">
 		<div class="interior" id="margen2510">
 			<p>I</p>
 		</div>
@@ -95,7 +39,7 @@
 	<ul>
 	  <li>Margen 25 arriba y abajo, 10 derecha izquierda. Padding 5 px por todos lados. Vemos que por derecha e izquierda no hay cambios, puesto que la capa no tiene establecido un ancho y se adapta, pero se produce un desplazamiento de la capa hacia abajo porque el padding se acumula con el margen: 25 margen superior + 5 padding superior + 50 alto capa + 5 padding inferior + 25 margen inferior = 110, cuando el alto de la capa exterior es 100.</li>
 	</ul>
-	<div class="exterior">
+	<div id="margen25103" class="exterior">
 		<div class="interior" id="margen25103">
 			<p>I</p>
 		</div>
@@ -103,7 +47,7 @@
 	<ul>
 	  <li>Margen 25 arriba y abajo, 10 derecha izquierda. Padding 20 por todos lados. Se desborda por abajo porque el padding y el margen se suman: 25 margen superior + 20 padding superior + 50 capa + 20 padding inferior +25 margen inferior = 140 (aunque no vemos los 25 del ultimo margen porque no se visualiza)</li>
 	</ul>
-	<div class="exterior">
+	<div id="margen25102" class="exterior">
 		<div class="interior" id="margen25102">
 			<p>I</p>
 		</div>
@@ -111,7 +55,7 @@
 	<ul>
 	  <li>Margen derecho -20. Al no haber indicado ancho en la capa interior esta adapta su ancho.</li>
 	</ul>
-	<div class="exterior">
+	<div id="margennegativosolo" class="exterior">
 		<div class="interior" id="margennegativosolo">
 			<p>I</p>
 		</div>
@@ -119,7 +63,7 @@
 	<ul>
 	  <li>Margen derecho -20 e izquierda 20</li>
 	</ul>
-	<div class="exterior">
+	<div id="margennegativo" class="exterior">
 		<div class="interior" id="margennegativo">
 			<p>I</p>
 		</div>
@@ -127,7 +71,7 @@
 	<ul>
 	  <li>Margen inferior -20.</li>
 	</ul>
-	<div class="exterior">
+	<div id="margeninferiornegativo" class="exterior">
 		<div class="interior" id="margeninferiornegativo">
 			<p>I</p>
 		</div>
@@ -136,10 +80,10 @@
 	  <li>Dos cuadros interiores con margen 20 por todos lados (Utilizaremos una caja exterior más grande). Lo interesante es que el margen entre las dos capas interiores no se suma, se coge el mayor.</li>
 	</ul>
 	<div class="exteriorgrande">
-		<div class="interior" id="dosprimera">
+		<div id="dosprimera" class="interior" id="dosprimera">
 			<p>I</p>
 		</div>
-		<div class="interior" id="dossegunda">
+		<div id="dosprimerados" class="interior" id="dossegunda">
 			<p>I</p>
 		</div>
 	</div>
@@ -147,10 +91,10 @@
 	  <li>Dos cuadros interiores con margen 10 por todos lados el primero y de 30 por todos lados el segundo.</li>
 	</ul>
 	<div class="exteriorgrande">
-		<div class="interior" id="dosprimerados">
+		<div id="dossegunda" class="interior" id="dosprimerados">
 			<p>I</p>
 		</div>
-		<div class="interior" id="dossegundados">
+		<div id="dossegundados" class="interior" id="dossegundados">
 			<p>I</p>
 		</div>
 		<p>E</p>
