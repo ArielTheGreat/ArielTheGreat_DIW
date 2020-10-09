@@ -1,0 +1,24 @@
+#absoluta1{
+	position:absolute;
+	bottom:0px;
+	right:0px;
+}
+#absoluta2{
+		z-index:-1;
+		position:absolute;
+		left:23%;
+}
+#absoluta3{
+	z-index:0;
+	position:absolute;
+	left:20%;
+	top:58%;
+}
+#relativa{
+	position:relative;
+	left:40px;
+	top:100px;
+}
+#sticky{
+	position:sticky;
+}
