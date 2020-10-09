@@ -10,10 +10,12 @@
 	padding: var(--espacio);
 	text-align: center;
 	width: var(--ancho);
+    z-index:2;
 }
 
 #absoluto1{
 	position: absolute;
+    z-index:0;
 	width: var(--ancho); 
 	padding: var(--espacio); 
 	background-color: #066; 
@@ -25,6 +27,7 @@
 
 #relativo{
 	position: relative; 
+    z-index:-1;
 	width: var(--ancho); 
 	padding: var(--espacio); 
 	background-color: #033; 
@@ -50,7 +53,8 @@
 	background-color: #666; 
 	text-align: right; 
 	color: #ffc; 
-	
+	position:relative;
+    left:35%;
 }
 
 #relativo2 div{ /*Falta posicionamiento */
@@ -59,6 +63,7 @@
 	background-color: #111; 
 	text-align: right; 
 	color: #ffc; 
+    position:relative;
 }
 
 
