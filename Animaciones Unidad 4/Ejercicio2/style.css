@@ -1,0 +1,13 @@
+main{
+    text-align: center;
+    font-size: 4rem;
+}
+main > input[type="text"]{
+    width: 20rem;
+    font-size: 3rem;
+    height: 5rem;
+}
+button{
+    margin-top:1rem;
+    font-size: 4rem;
+}
