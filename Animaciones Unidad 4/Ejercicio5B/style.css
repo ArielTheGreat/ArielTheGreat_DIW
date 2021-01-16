@@ -1,0 +1,10 @@
+body{
+    text-align: center;
+    font-size: 3rem;
+}
+h1{
+   width: 44%;
+}
+ul{
+    display: inline-block;
+}

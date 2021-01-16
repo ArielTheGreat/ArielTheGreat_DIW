@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejercicio 3</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <script type="text/Javascript" src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(".ocultar").click(function(){
+                    $("p").fadeOut(2000)
+                });
+                $(".mostrar").click(function(){
+                    $("p").fadeIn(2000)
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <button class="mostrar">Mostrar</button> <button class="ocultar">Ocultar</button>
+        <p>Texto de prueba..</p>
+    </body>
+</html>
